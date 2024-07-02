@@ -14,6 +14,7 @@ https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/7a36c6ac-295f-409
 - 설명 : LED 컨트롤러 + 온습도 센서 및 부저를 부착하여 스마트홈 기능을 구현
 - 작동영상
 
+https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/2fcc6b23-07c3-4e8e-8bbb-3fa32a6c7db7
 
 - 온습도 및 부저 컨트롤 코드
     ```python
