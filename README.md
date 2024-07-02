@@ -8,3 +8,25 @@
 
 https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/7a36c6ac-295f-409b-add9-6d51dd3ba130
 
+
+# LED CONTROLER ++ 
+- 기간 : 2024-06-29 ~ 2024-07-02
+- 설명 : LED 컨트롤러 + 온습도 센서 및 부저를 부착하여 스마트홈 기능을 구현
+- 작동영상
+
+
+- 온습도 및 부저 컨트롤 코드
+    ```python
+    def update_list_view(self, data):
+        self.model.setStringList(data)
+        if len(data) > 1 and "Humidity" in data[1]:
+            humidity = float(data[1].split(':')[1].strip('%'))
+            if humidity < 50: # 부저가 울릴 습도값 지정 
+                Buzz.stop()
+            else:
+                Buzz.start(50)
+    ```
+
+## 추가적 개발 사항
+- 습도별 LED 컨트롤을 할 수 있는 기능
+    - 습도 80% 이상이면 Red Led On , 습도 20~80% Blue Led On과 같은 범위 값 
