@@ -12,6 +12,10 @@ https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/7a36c6ac-295f-409
 # LED CONTROLER ++ 
 - 기간 : 2024-06-29 ~ 2024-07-02
 - 설명 : LED 컨트롤러 + 온습도 센서 및 부저를 부착하여 스마트홈 기능을 구현
+- 라즈베리파이 연결
+
+![연결](https://raw.githubusercontent.com/hyeily0627/Miniproject_RPi/main/images/001.jpg)
+
 - 작동영상
 
 https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/2fcc6b23-07c3-4e8e-8bbb-3fa32a6c7db7
@@ -27,6 +31,9 @@ https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/2fcc6b23-07c3-4e8
             else:
                 Buzz.start(50)
     ```
+
+- UI 변경(최종)
+![ui](https://raw.githubusercontent.com/hyeily0627/Miniproject_RPi/main/images/001.png)
 
 ## 추가적 개발 사항
 - 습도별 LED 컨트롤을 할 수 있는 기능
