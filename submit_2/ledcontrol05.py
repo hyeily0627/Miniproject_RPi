@@ -21,6 +21,7 @@ DHT_PIN = 17
 PIEZO_PIN = 18  # buzzer
 
 dht_sensor = dht11.DHT11(pin=DHT_PIN)
+GPIO.setup(PIEZO_PIN, GPIO.OUT)
 Buzz = GPIO.PWM(PIEZO_PIN, 440)
 
 class DHTSensorReader(QThread):
@@ -128,6 +129,7 @@ class WindowClass(QMainWindow, form_class) :
         if self.is_running:
             self.is_running = False
             self.sensor_reader.stop()
+            Buzz.stop()
             print("stop")
 
    def btnWhiteFunction(self) :
