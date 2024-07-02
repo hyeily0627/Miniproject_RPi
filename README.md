@@ -16,9 +16,10 @@ https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/7a36c6ac-295f-409
 
 ![연결](https://raw.githubusercontent.com/hyeily0627/Miniproject_RPi/main/images/001.jpg)
 
-- 작동영상
+- 작동영상(습도 50% 이상이라 부저가 울리는 영상)
 
 https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/2fcc6b23-07c3-4e8e-8bbb-3fa32a6c7db7
+
 
 - 온습도 및 부저 컨트롤 코드
     ```python
