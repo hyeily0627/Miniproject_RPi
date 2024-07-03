@@ -39,6 +39,14 @@ https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/2fcc6b23-07c3-4e8
   
 ![ui](https://raw.githubusercontent.com/hyeily0627/Miniproject_RPi/main/images/001.png)
 
+
+- 전체 동작 영상
+  
+
+https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/98f126e0-3614-4bb4-ba05-25eb13efd4f4
+
+
+
 ## 추가적 개발 사항
 - 습도별 LED 컨트롤을 할 수 있는 기능
     - 습도 80% 이상이면 Red Led On , 습도 20~80% Blue Led On과 같은 범위 값 
