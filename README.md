@@ -36,6 +36,7 @@ https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/2fcc6b23-07c3-4e8
     ```
 
 - UI 변경(최종)
+- 
 ![ui](https://raw.githubusercontent.com/hyeily0627/Miniproject_RPi/main/images/001.png)
 
 ## 추가적 개발 사항
