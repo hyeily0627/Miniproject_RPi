@@ -1,7 +1,7 @@
 # Miniproject_RPi
 미니프로젝트 라즈베리파이
 
-# LED CONTROLER
+# LED CONTROLER ()
 - 기간 : 2024-06-28
 - 설명 : LED 컨트롤러에 원하는 색상(빨,청,녹,흰)을 누르면 출력되는 기능
 - 작동영상 
@@ -9,8 +9,10 @@
 https://github.com/hyeily0627/Miniproject_RPi/assets/156732476/7a36c6ac-295f-409b-add9-6d51dd3ba130
 
 
-# LED CONTROLER ++ 
+# LED CONTROLER++ (파일 : ledcontrol05.py) 
 - 기간 : 2024-06-29 ~ 2024-07-02
+    - 파일 업데이트(ledcontrol06.py) 2024-07-03  
+    - 오류수정 led 컨트롤 후 온습도 센서 사용시 꺼지는 현상 수정  
 - 설명 : LED 컨트롤러 + 온습도 센서 및 부저를 부착하여 스마트홈 기능을 구현
 - 라즈베리파이 연결
 
