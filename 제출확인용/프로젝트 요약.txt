@@ -1,0 +1,11 @@
+- 기간 : 2024-06-28~2024-07-02 
+
+- Tool : python + RPi + led, 온습도, 부저센서 
+
+- 프로젝트 정리 : https://github.com/hyeily0627/Miniproject_RPi
+
+- 제출파일
+
+1. submit_1 :  LED 컨트롤러에 원하는 색상(빨,청,녹,흰)을 누르면 출력되는 기능구현
+
+2. submit_2 : LED 컨트롤러 + 온습도 센서 및 부저를 부착하여 스마트홈 기능 구현
